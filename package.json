@@ -1,0 +1,15 @@
+{
+  "name": "datasearch-cli",
+  "version": "1.0.0",
+  "description": "CLI for the DataSearch API — search billions of records by name, phone, email, ID, and more",
+  "type": "module",
+  "bin": {
+    "datasearch": "./bin/datasearch.js",
+    "ds": "./bin/datasearch.js"
+  },
+  "keywords": ["datasearch", "global-search", "osint", "cli"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
